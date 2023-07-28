@@ -45,14 +45,14 @@ vim.keymap.set("n", "<leader>|", ":vsplit<CR>")
 vim.keymap.set("n", "<leader>_", ":split<CR>")
 
 -- tab navigation
-vim.keymap.set("n", "tn", ":tabnew<CR>")
-vim.keymap.set("n", "td", ":tabclose<CR>")
-vim.keymap.set("n", "tj", ":tabprev<CR>")
-vim.keymap.set("n", "th", ":tabprev<CR>")
-vim.keymap.set("n", "tk", ":tabnext<CR>")
-vim.keymap.set("n", "tl", ":tabnext<CR>")
-vim.keymap.set("n", "tt", ":tabfirst<CR>")
-vim.keymap.set("n", "tT", ":tablast<CR>")
+vim.keymap.set("n", "<leader>tn", ":tabnew<CR>")
+vim.keymap.set("n", "<leader>td", ":tabclose<CR>")
+vim.keymap.set("n", "<leader>tj", ":tabprev<CR>")
+vim.keymap.set("n", "<leader>th", ":tabprev<CR>")
+vim.keymap.set("n", "<leader>tk", ":tabnext<CR>")
+vim.keymap.set("n", "<leader>tl", ":tabnext<CR>")
+vim.keymap.set("n", "<leader>tt", ":tabfirst<CR>")
+vim.keymap.set("n", "<leader>tT", ":tablast<CR>")
 
 -- exit insert mode with jj
 vim.keymap.set("i", "jj", "<c-[>")
