@@ -7,12 +7,15 @@
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
+  -- add OneDark
+  { "navarasu/onedark.nvim" },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "onedark",
+      style = "cool",
     },
   },
 
